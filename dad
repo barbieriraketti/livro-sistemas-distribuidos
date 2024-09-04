@@ -1,0 +1,23 @@
+Aqui está a tabela DREAD preenchida com base nas ameaças que você mencionou:
+
+| Ameaça                                                                                 | D | R | E | A | D | RISCO  |
+|----------------------------------------------------------------------------------------|---|---|---|---|---|--------|
+| **Vazamento de dados sensíveis dos pacientes** (Information Disclosure)                | 9 | 8 | 7 | 10| 7 | Alto   |
+| **Acesso não autorizado ao sistema** (Elevation of Privilege)                          | 8 | 7 | 6 | 9 | 6 | Médio  |
+| **Modificação não autorizada de dados** (Tampering with Data)                          | 8 | 6 | 5 | 8 | 5 | Médio  |
+| **Erro nos diagnósticos devido a falhas na extração de palavras-chave** (Tampering)    | 7 | 5 | 4 | 6 | 5 | Médio  |
+| **Ataques de negação de serviço (DoS)** (Denial of Service)                            | 8 | 9 | 6 | 9 | 7 | Alto   |
+| **Falhas na infraestrutura de nuvem ou nas APIs externas** (Denial of Service)         | 7 | 5 | 6 | 8 | 6 | Médio  |
+| **Falsificação de diagnósticos ou transcrições** (Repudiation)                         | 7 | 6 | 5 | 8 | 6 | Médio  |
+| **Exposição de conversas sensíveis** (Information Disclosure)                          | 9 | 8 | 6 | 9 | 7 | Alto   |
+| **Não conformidade com regulamentos de privacidade de dados** (Information Disclosure) | 8 | 7 | 6 | 10| 7 | Alto   |
+
+### Explicação dos valores:
+- **D (Damage)**: O impacto que a ameaça pode causar caso ocorra (de 1 a 10, sendo 10 o maior dano possível).
+- **R (Reproducibility)**: A facilidade com que a ameaça pode ser reproduzida (de 1 a 10, sendo 10 mais fácil).
+- **E (Exploitability)**: O quão fácil é explorar a vulnerabilidade (de 1 a 10, sendo 10 mais fácil).
+- **A (Affected Users)**: Quantidade de usuários afetados (de 1 a 10, sendo 10 a maior quantidade).
+- **D (Discoverability)**: O quão fácil é descobrir a vulnerabilidade (de 1 a 10, sendo 10 mais fácil).
+
+### Cálculo de risco:
+Valores mais altos indicam um risco mais elevado, o que justifica maior atenção na mitigação.
